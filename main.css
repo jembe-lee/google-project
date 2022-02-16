@@ -1,0 +1,161 @@
+body{
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(61, 61, 61);
+    font-size: 14px;
+    min-width: 100%;
+    min-height: 100%;
+}
+​
+ul{
+    list-style: none;
+    display: flex;
+    margin: 25px;
+}
+​
+​
+.nav {
+    display: flex;
+    justify-content: left;
+    position: absolute;
+    left: 75%;
+}
+​
+.nav li{
+    padding: 8px;
+}
+​
+.tiny-grid{
+    width: 3renm;
+    
+    transition: border 1s ease;
+}
+​
+.tiny-grid:hover{
+    border-radius: 50%;
+    background-color: rgb(223, 239, 253);
+}
+​
+a{
+    color: rgb(61, 61, 61);
+    text-decoration: none;
+}
+​
+a:hover{
+    text-decoration: underline;
+    transition: 5s ease;
+}
+​
+#logo{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+​
+.logo-name{
+    font-size: 100px;
+    position: relative;
+    top: 120px;
+​
+}
+​
+.g{
+    color: rgb(61, 107, 255);
+}
+​
+.o-red{
+    color: rgb(255, 65, 51);
+}
+​
+.o-yellow{
+    color: rgb(241, 177, 0);
+}
+​
+.l{
+    color: rgba(0, 151, 0, 0.897);
+}
+​
+.e{
+    color: rgb(255, 65, 51);
+}
+​
+.search{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 36px;
+}
+​
+#search{
+    width: 38rem;
+    height: 3rem;
+    border-radius: 2em;
+    border: solid 0.5px;
+    border-color: rgb(214, 212, 212);
+}
+​
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 60px;
+}
+​
+button{
+    width: 8rem;
+    height: 2rem;
+    margin: 6px;
+    border-style: none;
+    background: rgb(243, 252, 253);
+    border-radius: 5px;
+    transition: border 10s ease-in-out;
+}
+​
+button:hover{
+    border: solid 1px rgb(139, 139, 139);
+}
+​
+button a:hover{
+    text-decoration: none;
+}
+​
+.google-offer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 70px;
+}
+​
+.google-offer a{
+    color: blue;
+    padding: 7px;
+}
+​
+.nigeria{
+    border-bottom: solid 1px rgb(206, 206, 206);
+    padding: 10px;
+}
+.footer{
+    clear: both;
+    position: relative;
+    margin-top: 230px;
+    padding: -10px;
+    background-color: rgb(241, 241, 241);
+}
+​
+​
+.footer-ending{
+    display: flex;
+    justify-content: space-between;
+}
+​
+.footer-ending a{
+    padding: 10px;
+}
+
+body {
+    background-color: red;
+}
